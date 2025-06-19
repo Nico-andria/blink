@@ -27517,15 +27517,27 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   .team-title-4 .title {
     font-size: 90px;
   }
+  .single-team-style-one .thumbnail img {
+    /* Nico */
+    height: 800px;
+  }
 }
 @media only screen and (max-width: 1199px) {
   .team-title-4 .title {
     font-size: 70px;
   }
+  .single-team-style-one .thumbnail img {
+    /* Nico */
+    height: 800px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .team-title-4 .title {
     font-size: 36px;
+  }
+  .single-team-style-one .thumbnail img {
+    /* Nico */
+    height: 800px;
   }
 }
 
@@ -27539,7 +27551,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   transition: 0.8s;
   width: 100%;
   /* Nico */
-  height: 400px;
+  height: 500px;
 }
 .single-team-style-one .inner-content {
   position: absolute;
