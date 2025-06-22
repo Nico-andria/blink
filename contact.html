@@ -16,6 +16,17 @@
     <link rel="stylesheet" href="assets/css/plugins/animate.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "PEIQ1VJs5rIYD8Ynv",
+        });
+      })();
+    </script>
   </head>
 
   <body class="inner-page contact-page">
@@ -326,63 +337,43 @@
                   <span>Get in touch!</span>
                 </h2>
               </div>
-              <form class="appoinment-h2 rts-slide-up-gsap" action="#">
+              <form class="appoinment-h2 rts-slide-up-gsap">
                 <div class="input-line">
-                  <div class="input-half">
-                    <label for="name">Your Name*</label>
-                    <input
-                      id="name"
-                      type="text"
-                      placeholder="Andrew Davis Kino...."
-                      required
-                    />
-                  </div>
                   <div class="input-half">
                     <label for="email">Your Email*</label>
                     <input
                       id="email"
                       type="text"
-                      placeholder="info@mighty.net"
+                      name="email"
+                      placeholder="exemple@gmail.com"
+                      required
+                    />
+                  </div>
+                  <div class="input-half">
+                    <label for="subject">The subject of your message*</label>
+                    <input
+                      id="subject"
+                      type="text"
+                      name="subject"
+                      placeholder="Subject...."
                       required
                     />
                   </div>
                 </div>
-                <div class="input-line mt--40">
-                  <div class="input-half">
-                    <label for="name">What you are interested*</label>
-                    <select
-                      class="form-select"
-                      aria-label="Default select example"
-                    >
-                      <option selected>Design & Branding</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
-                  <div class="input-half">
-                    <label for="email">Project Budget*</label>
-                    <select
-                      class="form-select"
-                      aria-label="Default select example"
-                    >
-                      <option selected>Design & Branding</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
-                </div>
+
                 <div class="text-area mt--40">
                   <label for="message">Message*</label>
                   <textarea
                     id="message"
+                    name="message"
                     cols="30"
                     rows="10"
                     placeholder="Let tell us about your projects"
                   ></textarea>
                 </div>
-                <button class="submit-pd">Post Comment</button>
+                <button class="submit-pd" onsubmit="sendEmail()">
+                  Send message
+                </button>
               </form>
             </div>
             <!-- appoinment area two end -->
@@ -519,6 +510,8 @@
       </span>
     </div>
     <!-- pre loader end -->
+
+    <script src="assets/js/sendEmail.js"></script>
 
     <script defer src="assets/js/vendor/jquery.min.js"></script>
     <script defer src="assets/js/plugins/bootstrap.min.js"></script>
