@@ -20989,10 +20989,12 @@ body.coming-soon {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 700;
-  font-size: 100px;
+  font-size: 80px;
+  /* font-size: 100px; */
   /* font-size: 160px; */
   line-height: 208px;
   text-transform: uppercase;
+  text-align: center;
 }
 @media only screen and (max-width: 1199px) {
   .rts-case-service-area-h2 .water-txt-top {
@@ -27517,10 +27519,10 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   .team-title-4 .title {
     font-size: 90px;
   }
-  .single-team-style-one .thumbnail img {
-    /* Nico */
+  /* .single-team-style-one .thumbnail img {
+    Nico
     height: 800px;
-  }
+  } */
 }
 @media only screen and (max-width: 1199px) {
   .team-title-4 .title {
