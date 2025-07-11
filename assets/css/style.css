@@ -19361,7 +19361,8 @@ body.coming-soon {
   margin-bottom: 30px;
 }
 .single-service-card-box-1 .title {
-  color: #141414;
+  color: #e9ecef;
+  /* color: #141414; */
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -20529,7 +20530,8 @@ body.coming-soon {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 101%;
-  background: #fff;
+  background: #000;
+  /* background: #fff; */
   height: 100%;
   z-index: -1;
   transition: all 0.3s ease-in-out;
@@ -29785,7 +29787,8 @@ body.servi-ce-details .rts-footer-two-area {
   fill: #fff;
 }
 .rts-dark .single-service-card-box-1 .right-icon {
-  color: rgba(39, 39, 39, 0.49);
+  color: rgb(255 255 255 / 7%);
+  /* color: rgba(39, 39, 39, 0.49); */
 }
 .rts-dark .single-service-card-box-1 .plus-btn i {
   color: #000000;
