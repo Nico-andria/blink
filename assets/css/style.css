@@ -27530,7 +27530,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   }
   .single-team-style-one .thumbnail img {
     /* Nico */
-    height: 800px;
+    /* height: 800px; */
   }
 }
 @media only screen and (max-width: 767px) {
@@ -27539,7 +27539,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   }
   .single-team-style-one .thumbnail img {
     /* Nico */
-    height: 800px;
+    /* height: 800px; */
   }
 }
 
@@ -27553,7 +27553,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   transition: 0.8s;
   width: 100%;
   /* Nico */
-  height: 500px;
+  /* height: 500px; */
 }
 .single-team-style-one .inner-content {
   position: absolute;
@@ -27590,9 +27590,9 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   line-height: normal;
   margin-bottom: 0;
 }
-.single-team-style-one:hover .thumbnail img {
+/* .single-team-style-one:hover .thumbnail img {
   transform: scalex(-1);
-}
+} */
 .single-team-style-one:hover .inner-content {
   left: 40px;
   opacity: 1;
